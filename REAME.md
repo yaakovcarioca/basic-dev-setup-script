@@ -1,15 +1,17 @@
-# 🚀 Mac Setup Script
+# 🚀 Mac & Windows Setup Script
 
-Automatize a configuração do seu ambiente de desenvolvimento em um novo Mac com apenas um comando! Este script bash instala todas as ferramentas e aplicativos essenciais, economizando tempo e esforço.
+Automatize a configuração do seu ambiente de desenvolvimento em um novo Mac ou Windows com apenas um comando! Este script instala todas as ferramentas e aplicativos essenciais, economizando tempo e esforço.
 
 ## 🛠️ O que este script faz?
 
+### Para Mac
 - Atualiza o macOS e instala ferramentas básicas
 - Instala o Homebrew e atualiza pacotes
 - Instala ferramentas de desenvolvimento:
   - Xcode Command Line Tools
   - Node.js
   - PHP
+  - MySQL
   - Git
   - wget
 - Instala aplicativos via Homebrew Cask:
@@ -20,47 +22,72 @@ Automatize a configuração do seu ambiente de desenvolvimento em um novo Mac co
   - FileZilla
   - Insomnia
   - Beekeeper Studio
-- Limpeza de pacotes desnecessários
+
+### Para Windows
+- Instala o gerenciador de pacotes Chocolatey
+- Instala ferramentas de desenvolvimento:
+  - Node.js
+  - PHP
+  - Git
+  - wget
+- Instala aplicativos essenciais:
+  - Visual Studio Code
+  - Sublime Text
+  - Google Chrome
+  - FileZilla
+  - Insomnia
+  - Beekeeper Studio
 
 ---
 
 ## 📥 Como usar?
 
-1. Clone o repositório (caso já possua o git, senão, basta baixar o arquivo):
-
+### Para Mac
+1. Clone o repositório:
 ```bash
-git clone https://github.com/yaakovcarioca/basic-new-macbook-setup.git
-cd mac-setup-script
+git clone https://github.com/yaakovcarioca/basic-dev-setup-script.git
+cd basic-dev-setup-script
 ```
 
 2. Torne o script executável:
-
 ```bash
 chmod +x basic_setup_mac.sh
 ```
 
 3. Execute o script:
-
 ```bash
 ./basic_setup_mac.sh
+```
+
+### Para Windows
+1. Clone o repositório:
+```powershell
+git clone https://github.com/yaakovcarioca/basic-dev-setup-script.git
+cd basic-dev-setup-script
+```
+
+2. Permita a execução de scripts no PowerShell:
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force
+```
+
+3. Execute o script:
+```powershell
+./basic_setup_windows.ps1
 ```
 
 ---
 
 ## 💡 Dicas
-
-- Certifique-se de que o Terminal tenha permissões administrativas.
-- Mantenha o macOS atualizado antes de executar o script.
-- Se desejar adicionar mais aplicativos, edite o script e inclua-os na seção de instalação do Homebrew.
+- Certifique-se de que o Terminal (ou PowerShell) tenha permissões administrativas.
+- Mantenha o sistema operacional atualizado antes de executar o script.
+- Se desejar adicionar mais aplicativos, edite o script e inclua-os na seção de instalação do gerenciador de pacotes (Homebrew ou Chocolatey).
 
 ---
 
 ## 📝 Licença
-
 Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ---
 
 Desenvolvido com ❤️ por [Yaakov Carioca](https://github.com/yaakovcarioca)
-
-
