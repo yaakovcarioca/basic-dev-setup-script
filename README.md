@@ -11,7 +11,6 @@ Automatize a configuração do seu ambiente de desenvolvimento em um novo Mac ou
   - Xcode Command Line Tools
   - Node.js
   - PHP
-  - MySQL
   - Git
   - wget
 - Instala aplicativos via Homebrew Cask:
