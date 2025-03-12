@@ -47,7 +47,7 @@ Automatize a configuração do seu ambiente de desenvolvimento em um novo Mac ou
 ## 📥 Como usar?
 
 ### Para Mac
-1. Clone o repositório:
+1. Clone o repositório (se não possuir git, apenas faça download e continue...) :
 ```bash
 git clone https://github.com/yaakovcarioca/basic-dev-setup-script.git
 cd basic-dev-setup-script
@@ -64,7 +64,7 @@ chmod +x basic_setup_mac.sh
 ```
 
 ### Para Windows
-1. Clone o repositório:
+1. Clone o repositório (se não possuir git, apenas faça download e continue...) :
 ```powershell
 git clone https://github.com/yaakovcarioca/basic-dev-setup-script.git
 cd basic-dev-setup-script
