@@ -22,6 +22,11 @@ Automatize a configuração do seu ambiente de desenvolvimento em um novo Mac ou
   - Insomnia
   - Beekeeper Studio
 
++ Extras: Themas legais para o Hyper Terminal:
+  - Digite: hyper i hyperpower
+  - Digite: hyper i hyper-yes
+  - Digite: hyper i hyper-letters
+
 ### Para Windows
 - Instala o gerenciador de pacotes Chocolatey
 - Instala ferramentas de desenvolvimento:

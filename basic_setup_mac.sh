@@ -13,6 +13,10 @@ softwareupdate -i -a
 # Instala Xcode Command Line Tools
 xcode-select --install
 
+# Insttala o Oh MZSH
+echo "Instalando o Oh My Zsh!"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 echo "Instalando o Homebrew..."
 # Baixa e instala o Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -32,6 +36,8 @@ brew install wget
 
 echo "Instalando aplicativos via Homebrew Cask..."
 # Instala aplicativos via Cask
+brew install --cask hyper
+brew install --cask warp
 brew install --cask visual-studio-code
 brew install --cask sublime-text
 brew install --cask google-chrome
